@@ -1,5 +1,5 @@
 import { Helmet } from "react-helmet";
-import { TestHome } from "./styled";
+import { PageWrapper } from "App.styled";
 
 const AccountSettingsPage: React.FC = () => {
   return (
@@ -8,8 +8,10 @@ const AccountSettingsPage: React.FC = () => {
       <Helmet>
         <title>AccoutSettingsPage</title>
       </Helmet>
-      <h1>AccoutSettingsPage</h1>
-      <TestHome/>
+      <PageWrapper>
+        <h1>AccoutSettingsPage</h1>
+      </PageWrapper>
+      
     </div>
   );
 };

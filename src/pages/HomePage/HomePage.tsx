@@ -1,5 +1,6 @@
 import { Helmet } from "react-helmet";
 import { TestHome } from "./styled";
+import { PageWrapper } from "App.styled";
 
 const HomePage: React.FC = () => {
   return (
@@ -8,8 +9,9 @@ const HomePage: React.FC = () => {
       <Helmet>
         <title>Main title</title>
       </Helmet>
-      <h1>MARKETPLACE</h1>
-      <TestHome/>
+      <PageWrapper>
+        <h1>MARKETPLACE</h1>      
+      </PageWrapper>
     </div>
   );
 };
