@@ -1,6 +1,7 @@
 
 export const pathsPublic: { [k: string]: string } = {
   home: "/",
+  login: "/login",
   productDetails: "/product/:idOrSlug"
 }
 
